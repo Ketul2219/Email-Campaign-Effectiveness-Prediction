@@ -9,17 +9,15 @@ Project Overview
 
 Datasets
 
+Visualizations
+
+Hypothesis Testing
+
 Resampling Techniques
 
 Models Implemented
 
-Evaluation Metrics
-
 Results
-
-Visualizations
-
-Statistical Tests
 
 Conclusion
 
@@ -29,32 +27,6 @@ This project compares the performance of different machine learning models train
 
 # **Datasets**
 The dataset used in this project is a hypothetical dataset for classification tasks. The dataset is divided into training and testing sets.
-
-# **Resampling Techniques**
-The following resampling techniques are used to handle class imbalances in the dataset:
-
-**SMOTE (Synthetic Minority Over-sampling Technique)**
-**SMOTETomek (Combination of SMOTE and Tomek Links)**
-**Random Undersampling**
-**Models Implemented**
-**Decision Tree Classifier**
-**Random Forest Classifier**
-**CatBoost Classifier**
-**Evaluation Metrics**
-
-# **The models are evaluated using the following metrics:**
-
-**Accuracy**
-
-**Precision**
-
-**Recall**
-
-**F1 Score**
-
-**Results**
-
-The performance of each model on different resampled datasets is stored in a dictionary called final_dict. This dictionary contains the evaluation metrics for each model and resampling technique combination.
 
 # **Visualizations**
 The performance metrics are visualized using various types of charts to provide a clear comparison between the models. Below are examples of the visualizations used:
@@ -84,6 +56,32 @@ A heatmap representing the confusion matrix of the optimized Decision Tree model
 **Test Used:** ANOVA (Analysis of Variance)
 
 **Reason:** ANOVA is used to compare the means of multiple groups (more than two) to evaluate the performance metrics across different models trained with various data resampling techniques.
+
+# **Resampling Techniques**
+The following resampling techniques are used to handle class imbalances in the dataset:
+
+**SMOTE (Synthetic Minority Over-sampling Technique)**
+**SMOTETomek (Combination of SMOTE and Tomek Links)**
+**Random Undersampling**
+**Models Implemented**
+**Decision Tree Classifier**
+**Random Forest Classifier**
+**CatBoost Classifier**
+**Evaluation Metrics**
+
+# **The models are evaluated using the following metrics:**
+
+**Accuracy**
+
+**Precision**
+
+**Recall**
+
+**F1 Score**
+
+**Results**
+
+The performance of each model on different resampled datasets is stored in a dictionary called final_dict. This dictionary contains the evaluation metrics for each model and resampling technique combination.
 
 # **Conclusion**
 This project demonstrates the impact of different resampling techniques on the performance of various machine learning models. By comparing evaluation metrics and visualizing the results, it provides insights into the effectiveness of each technique and model combination.
